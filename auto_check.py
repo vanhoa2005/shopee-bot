@@ -20,4 +20,8 @@ SHEET_ID = "1jg8l5M3-IXLdWKgBJLcBIN_NqsbTMumMy1W2y1_TdYI"
 sheet = client.open_by_key(SHEET_ID).sheet1
 # ==================================
 
-sheet.append_row(["BOT RUN OK", "GitHub", "Success"])
+sheet.append_row([
+    product_name,
+    price,
+    link
+])
