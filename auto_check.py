@@ -21,7 +21,7 @@ sheet = client.open_by_key(SHEET_ID).sheet1
 # ==================================
 
 sheet.append_row([
-    product_name,
-    price,
-    link
+    "Test sản phẩm",
+    "100000",
+    "https://example.com"
 ])
